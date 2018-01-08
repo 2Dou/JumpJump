@@ -82,7 +82,7 @@ def find_by_platform(img, cur):
         ite = range(int(width * 0.1), int(width * 0.48))
 
     next_top, top_pixel = None, None
-    for y in range(int(height * 0.38), int(height * 0.52)):
+    for y in range(int(height * 0.3), int(height * 0.52)):
         # 背景色，因为有渐变，所以每行重新获取背景色
         bg_pixel = img.getpixel((width - 1, y))
 
