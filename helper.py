@@ -102,8 +102,6 @@ def find_by_platform(img, cur):
     if next_top == None:
         return None
 
-    img.mark(next_top, "top")
-
     '''
     搜索平台左右两点，通过左右两点计算中心点
     '''
@@ -140,6 +138,8 @@ def find_by_platform(img, cur):
             y += 1
         if x != next_top[0] and y != next_top[1]:
             right = (x, y)
+
+    img.mark(next_top, "top")
     if left != None and right != None:
         img.mark(left, "left")
         img.mark(right, "right")
