@@ -2,7 +2,7 @@
 
 ## 讲解
 
-[Python实现微信跳一跳外挂](https://www.orztu.com/post/wechatjump/)
+[Python实现微信跳一跳外挂](https://www.orztu.com/post/wechat-jump/)
 
 ## 使用方法
 
